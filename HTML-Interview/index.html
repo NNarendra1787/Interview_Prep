@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+</head>
+
+<body>
+    <h1>HTML - InterView Prepration Question</h1>
+    <section>
+        <h2>Day One</h2>
+        <div>
+            <h4>Q1- Difference between Div and Span</h4>
+            <p>Div:- The div tag is known as Division tag. The div tag is used in HTML to make divisions of content on
+                the web page like (text, images, header, footer, navigation bar, etc). Div tag has both
+                opening(&lt;div&gt;) and closing (&lt;/div&gt;) tags and it is mandatory to close the tag. As we know
+                Div tag is a block-level
+                tag. In this example, the div tag contains the entire width. It will be displayed div tag each time on a
+                new
+                line, not on the same line.</p>
+            <p>Span:- The HTML span element is a generic inline container for inline elements and content. It used to
+                group elements for styling purposes (by using the class or id attributes). A better way to use it when
+                no other semantic element is available. The span tag is very similar to the div tag, but div is a
+                block-level tag and span is an inline tag. </p>
+        </div>
+        <div>
+            <h4>Q2- Difference Between ID and Class</h4>
+            <p>ID:- The id attribute is a unique identifier that is used to specify the document. It is used by CSS and
+                JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using the
+                # symbol followed by id.
+            <pre>
+
+                    Syntax:
+                    
+                    <element id="id_name">
+                        
+                        In CSS Stylesheet:
+                        #id_name {
+                            // CSS Property
+                        }
+                    </pre>
+            </p>
+            <p>Class:- The class attribute is used to specify one or more class names for an HTML element. The class
+                attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform
+                certain tasks for elements with the specified class name. The class name in CSS stylesheet using “.”
+                symbol.
+            <pre>
+                    Syntax:
+
+                    <element class="class_name">
+
+                    In CSS Stylesheet:
+                    .class {
+                        // CSS Property
+                    }
+                </pre>
+            </p>
+        </div>
+        <div>
+            <h4>Q3- What are the self colsing tag</h4>
+            <p>A traditional HTML tag such as &lt;p&gt;,
+                &lt;div&gt;, &lt;section&gt;, etc., had an opening tag and a closing tag. However, due to their
+                fundamental structure,
+                void components in HTML, such as images and links, do not technically require closing tags. Images
+                and links cannot have content - they are pointers to an element installed on the website.</p>
+            <p>instead of including independent opening and closing tags in more modern HTML variants such as
+                developers employ a self-closing tag that includes a "/" within the carets (\<>). For
+                    example – &lt;img src="image/circle" alt="example" /&gt;</p>
+            <p>A self-closing tag in HTML is a kind of HTML tag that does not need to be closed manually by its
+                closing tag, which means it does not have a separate closing tag as &lt;/tag&gt;. Some few
+                self-closing tags are &lt;input /&gt;,
+                &lt;hr /&gt;, &lt;br /&gt;, &lt;img /&gt;, etc.
+            </p>
+            <p>Self-closing tags in HTML are sometimes also known as empty tags, void tags, singletons tags,
+                etc. This means that these tags have no content and cannot have any children.</p>
+        </div>
+        <div>
+            <h4>Q4- How Many Types of Heading are ther</h4>
+            <p>There is a six type of heading are there</p>
+            <p>
+            <ol>
+                <li>&lt;h1&gt;This is My Heading 1 with size 32px&lt;/h1&gt;</li>
+                <li>&lt;h2&gt;This is My Heading 2 with size 24px&lt;/h2&gt;</li>
+                <li>&lt;h3&gt;This is My Heading 3 with size 18px&lt;/h3&gt;</li>
+                <li>&lt;h4&gt;This is My Heading 4 with size 16px&lt;/h4&gt;</li>
+                <li>&lt;h5&gt;This is My Heading 5 with size 13px&lt;/h5&gt;</li>
+                <li>&lt;h6&gt;This is My Heading 6 with size 10px&lt;/h6&gt;</li>
+            </ol>
+            </p>
+        </div>
+        <div>
+            <h4>Q5- Difference between Block and Inline elements</h4>
+            <p>
+            <ul>
+                <li>Block Elements take the whole width of the webpage</li>
+                <li>Inline Elements take width necessary for the content inside it</li>
+                <li>Block Elements always start on a new Line</li>
+                <li>Inline Elements don’t not start on a new Line</li>
+                <li>Block Elements Example : &lt;div&gt; &lt;p&gt; &lt;h1&gt; to &lt;h6&gt; &lt;table&gt; &lt;li&gt;
+                </li>
+                <li>Inline Elements Example : &lt;span&gt; , &lt;img&gt; , &lt;a&gt; , &lt;input&gt; , &lt;label&gt;
+                    ,&lt;meta&gt;</li>
+            </ul>
+            </p>
+        </div>
+        <div>
+            <h4>Q6- Difference between &lt;em&gt; and &lt;strong&gt;</h4>
+            <p>Similarity : Both are inline elements that are used to emphasizing parts of a sentence.</p>
+            <p>Em : Makes it italicized : The &lt;em&gt; element is for words that have a stressed emphasis compared to
+                surrounding
+                text, which is often limited to a word or words of a sentence and affects the meaning of the sentence
+                itself. 'This
+                text or word is more important than the others'</p>
+            <p>The &lt;strong&gt; element is for content that is of greater importance, while the &lt;b&gt; element is
+                used to draw attention
+                to text without indicating that it's more important.</p>
+        </div>
+        <div>
+            <h4>Q7- What are Attributes?</h4>
+            <p>
+            <ul type="circle">
+                <li>HTML attributes are special words which provide additional information about the elements or
+                    attributes are the modifier of the HTML element.</li>
+                <li>Each element or tag can have attributes, which defines the behaviour of that element.</li>
+                <li> Attributes should always be applied with start tag.</li>
+                <li> The Attribute should always be applied with its name and value pair.</li>
+                <li>The Attributes name and values are case sensitive, and it is recommended by W3C that it should be
+                    written in Lowercase only.</li>
+                <li>You can add multiple attributes in one HTML element, but need to give space between two attributes.
+                </li>
+            </ul>
+            </p>
+        </div>
+    </section>
+    <section>
+        <h2>Day Two</h2>
+        <div>
+            <h4>Q1- Difference between HTML Tags and Elements</h4>
+            <p>HTML Tags: Tags are the starting and ending parts of an HTML element. They begin with &lt; symbol and end
+                with &gt; symbol. Whatever written inside < and> are called tags.
+            </p>
+            <p>HTML elements: Elements enclose the contents in between the tags. They consist of some kind of structure
+                or expression. It generally consists of a start tag, content and an end tag.</p>
+        </div>
+        <div>
+            <h4>Q2 - Explain br tag</h4>
+            <p>We will know how to add line-break using HTML &lt;br&gt; tag. The browser does not recognize new line and
+                paragraph formatting in the text. If you want to start a new line, you need to insert a line break with
+                the help of the &lt;br&gt;. The &lt;br&gt; tag inserts a single carriage return or breaks in the
+                document. This element has no end tag.</p>
+        </div>
+        <div>
+            <h4>Q3- How many difference types of list are There</h4>
+            <p>There are the three types of list are there</p>
+            <p>Unorderd list, Odered list, Discription list</p>
+            <p>1) Unorder list
+            <pre>
+                Syntax:
+                        &lt;ul&gt;
+                            &lt;li>One&lt;/li&gt;
+                            &lt;li>Two&lt;/li&gt;
+                            &lt;li>Three&lt;/li&gt;
+                        &lt;/ul&gt;
+            </pre>
+            </p>
+            <p>2) Order list
+            <pre>
+                Syntax:
+                        &lt;ol&gt;
+                            &lt;li>One&lt;/li&gt;
+                            &lt;li>Two&lt;/li&gt;
+                            &lt;li>Three&lt;/li&gt;
+                        &lt;/ol&gt;
+            </pre>
+            </p>
+            <p>3) Discription list
+            <pre>
+                Syntax:
+                        &lt;dl&gt;
+                            &lt;dt&gt;Coffee&lt;/dt&gt;
+                            &lt;dd&gt;- black hot drink&lt;/dd&gt;
+                            &lt;dt&gt;Milk&lt;/dt&gt;
+                            &lt;dd&gt;- white cold drink&lt;/dd&gt;
+                        &lt;/dl&gt;
+            </pre>
+            </p>
+        </div>
+        <div>
+            <h4>Q4-What are the Sementic Tag</h4>
+            <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+            <p>Examples of semantic elements: &lt;form&gt;, &lt;table&gt;, and &lt;article&gt; - Clearly defines its
+                content.&lt;aside&gt;&lt;details&gt;&lt;figcaption&gt;&lt;figure&gt;&lt;footer&gt;&lt;header&gt;&lt;main&gt;&lt;mark&gt;&lt;nav&gt;&lt;section&gt;&lt;summary&gt;&lt;time&gt;
+            </p>
+        </div>
+        <div>
+            <h4>Q5- Write Code to create Order list with romman numbers</h4>
+            <p>Heare is the orderd list which will make list item in romman numbers</p>
+             <p>
+                   <pre>
+                    Syntax: 
+                        &lt;ol type="I"&gt;
+                            &lt;li&gt;React Tutorials1&lt;/li&gt;
+                            &lt;li&gt;React Tutorials2&lt;/li&gt;
+                            &lt;li&gt;React Tutorials3&lt;/li&gt;
+                            &lt;li&gt;React Tutorials4&lt;/li&gt;
+                        &lt;/ol>
+                </pre>
+            </p>
+            <p>
+                <pre>
+                     with output
+                        <ol type="I">
+                            <li>React Tutorials1</li>
+                            <li>React Tutorials2</li>
+                            <li>React Tutorials3</li>
+                            <li>React Tutorials4</li>
+                        </ol>
+                </pre>
+            </p>
+        </div>
+        <div>
+            <h4>Q6- Write Code to create Unorderd list with circle</h4>
+            <p>Heare is the Unorded list with circle in output</p>
+                <pre>
+                    Syntax: 
+                        &lt;ul type="circle"&gt;
+                            &lt;li&gt;React Tutorials1&lt;/li&gt;
+                            &lt;li&gt;React Tutorials2&lt;/li&gt;
+                            &lt;li&gt;React Tutorials3&lt;/li&gt;
+                            &lt;li&gt;React Tutorials4&lt;/li&gt;
+                        &lt;/ul>
+                </pre>
+            </p>
+            <p>
+                <pre>
+                     with output
+                        <ul type="circle">
+                            <li>React Tutorials1</li>
+                            <li>React Tutorials2</li>
+                            <li>React Tutorials3</li>
+                            <li>React Tutorials4</li>
+                        </ul>
+                </pre>
+            </p>
+        </div>
+        <div>
+            <h4>Q7- Write a code to create link to https://www.prepbytes.com</h4>
+            <p>
+                <pre>
+                    Syntax:
+                    &lt;a href="http://www.prepbytes.com"&gt;Conntect prepbytes&lt;/a&gt;
+                </pre>
+                output
+                <a href="http://www.prepbytes.com">Conntect prepbytes</a>
+            </p>
+        </div>
+    </section>
+    <section>
+        <h2>Day 3</h2>
+        <div>
+            <h4>Q1- Write a code to insert image</h4>
+            <p>
+                <pre>
+                    &lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3KFkwV83NHxcYfvS_SDi5T3fcZ5-BwOXpg&usqp=CAU" alt="loading img"&gt;
+                </pre>
+                Output of image
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3KFkwV83NHxcYfvS_SDi5T3fcZ5-BwOXpg&usqp=CAU" alt="loading img">
+            </p>
+        </div>
+        <div>
+            <h4>Q2- Creat a form contain input fileds name age email and contact</h4>
+            <pre> Syntax: 
+                &lt;h5&gt;Welcom to Coding club in KinGroup&lt;/h5&gt;
+                &lt;form action="" method=""&gt;
+                    &lt;div&gt;
+                        &lt;label&gt;Name:
+                            &lt;input type="text" name="myName" placeholder="Enter Your Name"&gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;&lt;br&gt&gt;
+                    &lt;div&gt;
+                        &lt;label&gt;Age
+                            &lt;input type="number" name="age" placeholder="Enter Your age"&gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;&lt;br&gt;
+                    &lt;div&gt;
+                        &lt;label&gt;Email:
+                            &lt;input type="email" name="myEmail" placeholder="Enter your email"&gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;&lt;br&gt;
+                    &lt;div&gt;
+                        &lt;label&gt;Contact no:
+                            &lt;input type="number" name="myNumber" placeholder="Enter contact no" &gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;&lt;br&gt;
+                &lt;/form&gt;
+                </pre>
+                Output:
+                <h5>Welcom to Coding club in KinGroup</h5>
+                <form action="" method="">
+                    <div>
+                        <label>Name:
+                            <input type="text" name="myName" placeholder="Enter Your Name">
+                        </label>
+                    </div><br>
+                    <div>
+                        <label>Age
+                            <input type="number" name="age" placeholder="Enter Your age">
+                        </label>
+                    </div><br>
+                    <div>
+                        <label>Email:
+                            <input type="email" name="myEmail" placeholder="Enter your email">
+                        </label>
+                    </div><br>
+                    <div>
+                        <label>Contact no:
+                            <input type="number" name="myNumber" placeholder="Enter contact no" >
+                        </label>
+                    </div><br>
+                </form>
+        </div>
+        <div>
+            <h4>Q3- Create a table and explain how to achive colespan</h4>
+            <pre>
+                Syntax:
+            &lt;table border="4px solid blue"&gt;
+                &lt;h5&gt;Westling Company&lt;/h5&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+
+                        &lt;th&gt;Emaployee Id:&lt;/th&gt;
+                        &lt;th&gt;Name:&lt;/th&gt;
+                        &lt;th colspan="2"&gt;Role:&lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;1245&lt;/td&gt;
+                        &lt;td&gt;Aj Style&lt;/td&gt;
+                        &lt;td&gt;Wrestler&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;1265&lt;/td&gt;
+                        &lt;td&gt;Ronda Rouse&lt;/td&gt;
+                        &lt;td&gt;Wrestler&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;245&lt;/td&gt;
+                        &lt;td&gt;John Cena&lt;/td&gt;
+                        &lt;td&gt;Wrestler&lt;/td&gt;
+                        &lt;td&gt;C.E.O&lt;/td&gt;
+                    &lt;/tr>
+                &lt;/tbody>
+
+            &lt;/table>
+            </pre>
+            Output:
+            <table border="4px solid blue">
+                <h5>Westling Company</h5>
+                <thead>
+                    <tr>
+
+                        <th>Emaployee Id:</th>
+                        <th>Name:</th>
+                        <th colspan="2">Role:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1245</td>
+                        <td>Aj Style</td>
+                        <td>Wrestler</td>
+                    </tr>
+                    <tr>
+                        <td>1265</td>
+                        <td>Ronda Rouse</td>
+                        <td>Wrestler</td>
+                    </tr>
+                    <tr>
+                        <td>245</td>
+                        <td>John Cena</td>
+                        <td>Wrestler</td>
+                        <td>C.E.O</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div>
+            <h4>Q4- Creat radio button (MERN, MEAN : Courses) and checkbox(HTML, CSS, REACT, NODE : Technology) and explain the differnce between these two </h4>
+            <pre>
+                Syntax:
+            &lt;form action="" method=""&gt;
+                &lt;div&gt;
+                    &lt;label&gt;Courses
+                        &lt;input type="radio" name="course" &gt;
+                        MERN
+                        &lt;input type="radio" name="course" &gt;
+                        MEAN
+                    &lt;/label&gt;
+                &lt;/div&gt;&lt;br&gt;
+                &lt;label>Technology
+                &lt;div&gt;
+                        &lt;input type="checkbox" name="HTML" &gt;
+                        HTML
+                        &lt;input type="checkbox" name="CSS" &gt;
+                        CSS
+                        &lt;input type="checkbox" name="REACT" &gt;
+                        REACT
+                        &lt;input type="checkbox" name="NODE" &gt;
+                        NODE
+                    &lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/form&gt;
+            </pre>
+            Output:
+            <form action="" method="">
+                <div>
+                    <label>Courses
+                        <input type="radio" name="course" >
+                        MERN
+                        <input type="radio" name="course" >
+                        MEAN
+                    </label>
+                </div><br>
+                <label>Technology
+                <div>
+                        <input type="checkbox" name="HTML" >
+                        HTML
+                        <input type="checkbox" name="CSS" >
+                        CSS
+                        <input type="checkbox" name="REACT" >
+                        REACT
+                        <input type="checkbox" name="NODE" >
+                        NODE
+                    </label>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
